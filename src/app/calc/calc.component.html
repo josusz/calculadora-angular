@@ -1,0 +1,15 @@
+<form>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg" alt="Angular logo.">
+  <br>
+  <output [value]="soma" [value]="subtracao" [value]="multiplicacao" [value]="divisao"></output>
+  <br>
+  <input type="number" name="num1" [(ngModel)]="num1" placeholder="Digite o 1º número">
+  <br>
+  <input type="number" name="num2" [(ngModel)]="num2" placeholder="Digite o 2º número">
+  <br>
+  <button class="btn-somar" (click)="somar()">&#8853;</button>
+  <button class="btn-subtrair" (click)="subtrair()">&#8854;</button>
+  <button class="btn-multiplicar" (click)="multiplicar()">&#8855;</button>
+  <button class="btn-dividir" (click)="dividir()">&#8856;</button>
+  <button class="btn-limpar" (click)="limpar()">CE</button>
+</form>

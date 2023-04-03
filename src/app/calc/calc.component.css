@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+img{
+    height: 50px;
+    display: block;
+    margin: auto;
+}
+
+form{
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 8px 0px #a1a1a1;
+    background-color: #ffffff;
+}
+
+input{
+    font-family: "Consolas", "Lucida Console", Monaco, monospace;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 5px;
+    border-style:solid;
+    border-color: #e8e8e8;
+    text-align: end;
+    color: #7e7e7e;
+    margin-bottom: 10px;
+    background-color: #f4f4f4;
+    padding: 5px;
+    width: 250px;
+}
+
+output{
+    font-family: "Consolas", "Lucida Console", Monaco, monospace;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #e8e8e8;
+    text-align: center;
+    color: #0095ff;
+    margin-bottom: 15px;
+    background-color: #f4f4f4;
+    padding: 5px;
+    outline: none;
+    display: inline-block;
+    width: 250px;
+}
+
+.btn-somar, .btn-subtrair, .btn-multiplicar, .btn-dividir{
+    margin-bottom: 10px;
+    height: 40px;
+    width: 45px;
+    font-size: 25px;
+    margin-right: 5px;
+    border-radius: 10px;
+    color: #ffffff;  
+    background-color: #0095ff;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 5px 0px #006cb9;
+}
+
+.btn-somar:hover, .btn-subtrair:hover, .btn-multiplicar:hover, .btn-dividir:hover{
+    background-color: #32aaff;
+    box-shadow: 0px 0px 0px;
+    transform: translateY(5px);
+}
+
+.btn-limpar{
+    margin-top: 8px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 60px;
+    font-size: 25px;
+    border-radius: 10px;
+    color: #ffffff;  
+    background-color: #ff0000;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 5px 0px #ac0000;
+}
+
+.btn-limpar:hover{
+    background-color: #ff4040fb;
+    box-shadow: 0px 0px 0px;
+    transform: translateY(5px);
+} 
